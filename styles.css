@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #4b8d4c, #fffdc1, #4d884a);
+    color: #333; /* Warna teks */
+}
+
+h1 {
+    text-align: center;
+}
+
+header {
+    background: linear-gradient(to right, #29522c, #61b96a, #234e27); 
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+
+footer {
+    background-color: #343a40; 
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+#searchInput {
+    padding: 8px;
+    width: 200px;
+    margin-right: 8px;
+}
+
+#searchButton {
+    padding: 8px 16px;
+    background-color: #237932;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#searchButton:hover {
+    background-color: #44c73b;
+}
+
+#resultContainer {
+    margin-top: 20px;
+}
+
+.movie {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.movie img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* CSS untuk hasil pencarian */
+#resultContainer {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+#resultContainer > div {
+    width: 200px; 
+    margin-right: 20px; 
+    margin-bottom: 20px; 
+    margin-top: 100px;
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    box-sizing: border-box;
+    border-radius: 5%;
+    transition: transform 0.3s ease; 
+}
+
+#resultContainer > div:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6); 
+}
+
+#resultContainer img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+
+
